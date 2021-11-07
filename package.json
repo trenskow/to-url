@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/to-url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stupid little package for converting strings to URL.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/trenskow/to-url#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.2.0"
   }
 }
