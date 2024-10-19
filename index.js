@@ -1,6 +1,4 @@
-'use strict';
-
-exports = module.exports = (url) => {
+const toUrl = (url) => {
 	try {
 		return new URL(url);
 	} catch (_) {
@@ -8,7 +6,7 @@ exports = module.exports = (url) => {
 	}
 };
 
-exports.withError = (options) => {
+toUrl.withError = (options) => {
 	return (url) => {
 		try {
 			return new URL(url);
@@ -17,3 +15,5 @@ exports.withError = (options) => {
 		}
 	};
 };
+
+export default toUrl;
