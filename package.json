@@ -1,6 +1,6 @@
 {
 	"name": "@trenskow/to-url",
-	"version": "0.2.9",
+	"version": "0.2.10",
 	"description": "Stupid little package for converting strings to URL.",
 	"main": "index.js",
 	"type": "module",
